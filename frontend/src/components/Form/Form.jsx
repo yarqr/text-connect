@@ -18,14 +18,20 @@ export default function Form(props) {
       <Input placeholder={`${status} YOUR LOGIN`} />
       <Input placeholder={`${status} YOUR PASSWORD`} />
       <section className="ButtonsList">
-        <Button text={"ENTER"} onClick={() => props.auth(true)} />
+        <Button
+          text={"ENTER"}
+          cl={"BiggerButton"}
+          onClick={() => props.auth(true)}
+        />
         <Button
           text={"SIGN IN"}
+          cl={"Button"}
           onClick={() => setStatus("ENTER")}
           state={status === "ENTER"}
         />
         <Button
           text={"SIGN UP"}
+          cl={"Button"}
           onClick={() => setStatus("CREATE")}
           state={status === "CREATE"}
         />
