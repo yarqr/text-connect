@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+.Title {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 100px;
+}
+
+.Capital {
+  font-size: 125px;
+  color: blueviolet;
+}
